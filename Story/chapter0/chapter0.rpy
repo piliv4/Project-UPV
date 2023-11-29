@@ -12,7 +12,7 @@ label chapter0:
       call option_2
   
   
-  bazooka.character "Dios q puta mierda"
+  bazooka.character "Dios q puta mierdon"
   return
 
 label option_1:
