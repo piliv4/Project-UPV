@@ -6,7 +6,7 @@ label chapter0:
   bazooka.character "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
 
   menu:
-    "Me quiero morir":
+    "Me quiero vivir":
       call option_1
       return
     "Te comia las mierdas":
