@@ -8,7 +8,7 @@ init python:
     """
       def __init__(self, alias):
           self.alias = alias
-          self.expressions = {
+          self.states = {
               # Esto lo que hace es en funcion de un nombre permite obtener una imagen
           
               # "idle": f"{alias}_idle.png",

@@ -45,6 +45,6 @@ init python:
       self.__character = val
 
     def getExpressionPNG(self, state):
-      return self.expressions.expressions[state]
+      return self.expressions.states[state]
 
     
