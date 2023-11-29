@@ -5,6 +5,8 @@ label chapter0:
 
   bazooka.character "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
 
+  joseluis.character "Hola dame tu @ del  lol chama"
+  
   menu:
     "Me quiero morir":
       call option_1
