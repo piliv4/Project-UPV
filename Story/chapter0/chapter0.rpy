@@ -8,13 +8,11 @@ label chapter0:
   menu:
     "Me quiero morir":
       call option_1
-      return
     "Te comia las mierdas":
       call option_2
-      return
   
   
-  bazooka.character "Dios q puta mierdon"
+  bazooka.character "Dios q puta mierda"
   return
 
 label option_1:
