@@ -22,7 +22,7 @@ init python:
 
     @property
     def alias(self):
-      return self.__affinity
+      return self.__alias
 
     @property
     def affinity(self):
