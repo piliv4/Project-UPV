@@ -31,7 +31,7 @@ init python:
     @property
     def character(self):
       return self.__character
-   
+  
     @alias.setter
     def addAlias(self, val):
       self.__alias += val 
