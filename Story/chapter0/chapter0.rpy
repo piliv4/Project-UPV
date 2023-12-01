@@ -1,9 +1,12 @@
 label chapter0:
-  scene bg room
+  
+  scene bg_exterior
 
+  show bazooka_idle
+
+  bazooka.character "¿Realmente se está poniendo el sol, o simplemente le está dando a la luna la oportunidad de brillar?"
+  
   bazooka.character "Hola soy [bazooka.name] pero todos me llaman [bazooka.alias] y tengo [bazooka.age]"
-
-  bazooka.character "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
 
   joseluis.character "Hola dame tu @ del  lol chama"
 
