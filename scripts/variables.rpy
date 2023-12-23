@@ -11,3 +11,15 @@ label defineCharacters:
 
   return
 
+
+#DEFINE IMAGES
+
+#DEFINE BACKGROUNDS(BG)
+
+image bg_fuego = "bg_clase_con_fuego.png" 
+
+image bg_patio = "bg_exterior"
+
+#DEFINE CHARACTERS/PERSONAJES (CH/PJ)
+
+image ch_bazooka = "bazooka_idle"

@@ -1,9 +1,12 @@
 label chapter0:
-  scene picture_1
+ 
+  scene bg_fuego
 
-  scene bg_exterior
+  Niniopan.character "esto es un diálogo de prueba jijiji"
 
-  show bazooka_idle
+  scene bg_patio
+
+  show ch_bazooka
 
   bazooka.character "¿Realmente se está poniendo el sol, o simplemente le está dando a la luna la oportunidad de brillar?"
   
