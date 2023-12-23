@@ -1,5 +1,6 @@
 label chapter0:
-  
+  scene picture_1
+
   scene bg_exterior
 
   show bazooka_idle
