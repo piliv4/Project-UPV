@@ -2,13 +2,13 @@ label defineCharacters:
   
   #DEFINE CHARACTERS
 
-  $ mc = Person( Character ("nombrejugador"), "", "", "",20,50)
+  $ mc = Person( Character ("nombrejugador"), "", "", "",20)
 
-  $ bazooka =  Person( Character("Bazooka"), "Bazooka", "Bazkoare", "", 22, 50)
+  $ bazooka =  PersonPL( Character("Bazooka"),"", "Bazooka", "Bazkoare", 22, 50)
 
-  $ Niniopan =  Person( Character("Pan"), "de Molde", "Pan", "", 21, 50)  
+  $ panero =  PersonPL( Character("Pan"),"Panalias", "Melnik", "Panero", 21, 50)  
 
-  $ joseluis = Person( Character("Lolero"), "Garcia", "Jose luis", "", 19, 50)
+  $ joseluis = PersonPL( Character("Lolero"),"", "Jose Luis", "García", 19, 50)
 
   return
 

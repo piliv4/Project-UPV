@@ -7,11 +7,14 @@ label chapter0:
 
   mc.character "No, no, no"
 
+  mc.character "Mierda, esto no puede estar pasando"
+
   joseluis.character "¡Cuidado!"
 
   scene negro
-  mc.character "¡Auch!"
-  
+  mc.character "¡Agh!"
+
+
   scene bg_patio
 
   show ch_bazooka
@@ -22,7 +25,7 @@ label chapter0:
 
   joseluis.character "Hola dame tu @ del  lol chama"
 
-  Niniopan.character "La vida me da miedo"
+  panero.character "La vida me da miedo"
   
   menu:
     "Me quiero morir":

@@ -1,4 +1,6 @@
 init python:
+
+  #Person - Personajes normales - Categoría para personajes que NO necesiten del atributo AFINIDAD, como el main character o realmente cualquier otro que no sean los 3 LI
   class Person (object):
     """
       Representa a un personaje del juego.
@@ -9,14 +11,12 @@ init python:
         name (string): Nombre del personaje
         surnames (string): Apellidos del personaje
         age (num): 
-        affinity (num): Valor de 0 a 100 que determina el nivel de afinidad con el personaje principal 
     """
-    def __init__(self, character, alias, name, surnames, age, affinity):
+    def __init__(self, character, alias, name, surnames, age):
       self.name = name
       self.surnames = surnames
       self.age = age
       self.__alias = alias
-      self.__affinity = affinity
       self.__character = character
       self.__expressions = Expressions(alias)
 
@@ -24,9 +24,6 @@ init python:
     def alias(self):
       return self.__alias
 
-    @property
-    def affinity(self):
-      return self.__affinity
     
     @property
     def character(self):
@@ -36,9 +33,6 @@ init python:
     def addAlias(self, val):
       self.__alias += val 
 
-    @affinity.setter
-    def addAffinity(self, val):
-      self.__affinity += val
 
     @character.setter
     def setCharacter(self, val):
