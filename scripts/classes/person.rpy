@@ -30,8 +30,8 @@ init python:
       return self.__character
   
     @alias.setter
-    def addAlias(self, val):
-      self.__alias += val 
+    def setAlias(self, val):
+      self.__alias = val 
 
 
     @character.setter
