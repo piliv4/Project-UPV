@@ -2,8 +2,9 @@ label defineCharacters:
   
   #DEFINE CHARACTERS
 
-  $ bazooka =  Person( Character("Bazooka"), "Bazooka", "Bazkoare", "", 22, 50)
+  $ mc = Person( Character ("nombrejugador"), "", "", "",20,50)
 
+  $ bazooka =  Person( Character("Bazooka"), "Bazooka", "Bazkoare", "", 22, 50)
 
   $ Niniopan =  Person( Character("Pan"), "de Molde", "Pan", "", 21, 50)  
 
@@ -14,12 +15,13 @@ label defineCharacters:
 
 #DEFINE IMAGES
 
+image negro = "negro.png"
 #DEFINE BACKGROUNDS(BG)
 
 image bg_fuego = "bg_clase_con_fuego.png" 
 
-image bg_patio = "bg_exterior"
+image bg_patio = "bg_exterior.png"
 
 #DEFINE CHARACTERS/PERSONAJES (CH/PJ)
 
-image ch_bazooka = "bazooka_idle"
+image ch_bazooka = "bazooka_idle.png"

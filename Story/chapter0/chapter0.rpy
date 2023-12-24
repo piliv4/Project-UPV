@@ -1,9 +1,17 @@
 label chapter0:
  
+  
   scene bg_fuego
 
-  Niniopan.character "esto es un diálogo de prueba jijiji"
+  mc.character "No"
 
+  mc.character "No, no, no"
+
+  joseluis.character "¡Cuidado!"
+
+  scene negro
+  mc.character "¡Auch!"
+  
   scene bg_patio
 
   show ch_bazooka
