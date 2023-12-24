@@ -12,8 +12,68 @@ label chapter0:
   joseluis.character "¡Cuidado!"
 
   scene negro
+
+  #Añadir sonido de golpetazo
+
   mc.character "¡Agh!"
 
+  incognito.character "¡¿ Dónde está el extintor?!"
+
+  incognito.character "Dios mío, ¡fuego!"
+
+  #Añadir sonido de metal pipe
+
+  incognito.character "¿Qué ha sido eso?"
+
+  #Añadir sonido de notificacion del berreal
+
+  incognito.character "¿Quién pal berreal?"
+
+  incognito.character "Tío, no es momento de berreal"
+
+  incognito.character "..."
+
+  incognito.character "Bueno, en realidad no me importa salir"
+
+  incognito.character "¿Qué estáis haciendo?"
+
+  #Añadir sonido de foto
+
+  incognito.character "..."
+
+  incognito.character "Que alguien me saque de aquí, estáis todos locos"
+
+  incognito.character "¡El extintor!, lo he encontrado aquí"
+
+  incognito.character "Pásamelo, corre"
+
+  #Añadir sonido de fsssshhhh de extintor
+
+  #En la siguiente línea de diálogo habría que usar pronombres para el mc
+  # y no sé como hacer eso todavía, así que lo dejo así
+
+  incognito.character "¿Cómo va el/la/le otro/otra/otre?"
+
+  scene sc_tetaspan
+
+  incognito.character "Esta/e sigue inconsciente"
+
+  incognito.character "Aguanta un poco, en nada salimos"
+
+  #Añadir sonido de varios golpes seguidos, como para indicar que se está 
+  #rompiendo una puerta a golpes
+
+  incognito.character "¡La puerta! La he abierto!"
+
+  mc.character "Ugh... El humo"
+
+  mc.character "Hace que se me cierren los ojos"
+
+  scene sc_tetaspanborrosas
+
+  incognito.character "¿Tú que vas a abrir?"
+
+  mc.character "no puedo más"
 
   scene bg_patio
 
@@ -44,4 +104,5 @@ label option_1:
 label option_2:
   bazooka.character "ZAAAAAMNNNN"
   return
+
   

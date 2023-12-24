@@ -4,6 +4,8 @@ label defineCharacters:
 
   $ mc = Person( Character ("nombrejugador"), "", "", "",20)
 
+  $ incognito = Person( Character ("???"), "", "", "",20)
+
   $ bazooka =  PersonPL( Character("Bazooka"),"", "Bazooka", "Bazkoare", 22, 50)
 
   $ panero =  PersonPL( Character("Pan"),"Panalias", "Melnik", "Panero", 21, 50)  
@@ -25,3 +27,9 @@ image bg_patio = "bg_exterior.png"
 #DEFINE CHARACTERS/PERSONAJES (CH/PJ)
 
 image ch_bazooka = "bazooka_idle.png"
+
+#DEFINE SCENES (SC)
+
+image sc_tetaspan ="sc_tetaspan.png"
+
+image sc_tetaspanborrosas = "sc_tetaspanborrosas.png"
