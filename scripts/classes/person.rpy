@@ -41,4 +41,3 @@ init python:
     def getExpressionPNG(self, state):
       return self.expressions.states[state]
 
-    
