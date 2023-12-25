@@ -9,7 +9,7 @@ label chapter0:
 
   mc.character "Mierda, esto no puede estar pasando"
 
-  joseluis.character "¡Cuidado!"
+  incognito.character "¡Cuidado!"
 
   scene negro
 
