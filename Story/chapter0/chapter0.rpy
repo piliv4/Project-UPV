@@ -42,7 +42,7 @@ label chapter0:
 
   incognito.character "Que alguien me saque de aquí, estáis todos locos"
 
-  incognito.character "¡El extintor!, lo he encontrado aquí"
+  incognito.character "¡El extintor!, lo he encontrado. Está por aquí"
 
   incognito.character "Pásamelo, corre"
 
