@@ -18,7 +18,6 @@ init python:
       self.age = age
       self.__alias = alias
       self.__character = character
-      self.__expressions = Expressions(alias)
 
     @property
     def alias(self):
@@ -38,6 +37,5 @@ init python:
     def setCharacter(self, val):
       self.__character = val
 
-    def getExpressionPNG(self, state):
-      return self.expressions.states[state]
+    
 

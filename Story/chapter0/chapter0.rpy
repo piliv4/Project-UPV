@@ -1,6 +1,5 @@
 label chapter0:
  
-  
   scene bg_fuego
 
   mc.character "No"
@@ -13,7 +12,7 @@ label chapter0:
 
   scene negro
 
-  #Añadir sonido de golpetazo
+  play sound slip
 
   mc.character "¡Agh!"
 
@@ -21,11 +20,11 @@ label chapter0:
 
   incognito.character "Dios mío, ¡fuego!"
 
-  #Añadir sonido de metal pipe
+  play sound metal_pipe
 
   incognito.character "¿Qué ha sido eso?"
 
-  #Añadir sonido de notificacion del berreal
+  play sound bereal
 
   incognito.character "¿Quién pal berreal?"
 
@@ -37,7 +36,7 @@ label chapter0:
 
   incognito.character "¿Qué estáis haciendo?"
 
-  #Añadir sonido de foto
+  play sound click_photo
 
   incognito.character "..."
 
@@ -47,7 +46,7 @@ label chapter0:
 
   incognito.character "Pásamelo, corre"
 
-  #Añadir sonido de fsssshhhh de extintor
+  play sound fire_extinguisher
 
   #En la siguiente línea de diálogo habría que usar pronombres para el mc
   # y no sé como hacer eso todavía, así que lo dejo así
