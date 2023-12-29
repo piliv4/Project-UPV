@@ -10,6 +10,7 @@ label start:
 
     call defineCharacters   
 
+    call debug
 
     call chapter0
     
