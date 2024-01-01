@@ -74,6 +74,16 @@ label chapter0:
 
   mc.character "no puedo más"
 
+  #Añadir fundido en negro#
+
+  scene negro
+
+  #FIN ESCENA 1
+
+
+
+  mc.character "..."
+
   scene bg_patio
 
   show ch_bazooka

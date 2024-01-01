@@ -24,9 +24,16 @@ image bg_fuego = "bg_clase_con_fuego.png"
 
 image bg_patio = "bg_exterior.png"
 
+image bg_patio_medicos = "bg_medicos_en_upv.png"
+
 #DEFINE CHARACTERS/PERSONAJES (CH/PJ)
 
 image ch_bazooka = "bazooka_idle.png"
+
+image ch_jl_happy = "sprite_jl_contento.png"
+
+image ch_jl_blush = "sprite_jl_sonrojado.png"
+
 
 #DEFINE SCENES (SC)
 
