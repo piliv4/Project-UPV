@@ -108,7 +108,12 @@ label chapter0:
 
   joseluis.character "Ah, por cierto... Esto es para tí"
 
-  #Insertar imagen de jose luis dandote una taza de chocolate 
+  # · insertar todo el rollo de los objetos ·
+  #     - Insertar imagen de jose luis dandote una taza de chocolate 
+  #     - Insertar menú de objetos
+  #     - Insertar taza de chocolate como objeto
+  #     - Insertar tutorial para el menú de objetos
+  #     - Insertar escena en caso de que el jugador le de la taza a jose luis
 
   scene bg_patio
 
