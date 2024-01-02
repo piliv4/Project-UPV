@@ -92,27 +92,33 @@ label chapter0:
 
   joseluis.character "soy Jose Luis, de ingeniería informática."
 
-  #Añadir sprite Jose Luis confundido#
+  #Añadir sprite Jose Luis confundido
 
   joseluis.character "..."
 
-  #Añadir sprite Jose Luis molesto
-  joseluis.character "Oye, que me llamo Jose Luis, no _lolero_."
+  #ocultar sprite jose luis confundido
 
-  #Añadir sprite Jose Luis gotita de sudor
+  show ch_jl_annoyed
+
+  joseluis.character "Oye, que me llamo Jose Luis, no lolero."
+
+  hide ch_jl_annoyed
+
+  show ch_jl_think
 
   joseluis.character "¿Puedes hacer que ahí abajo deje de poner eso?"
+
+  hide ch_jl_think
 
   menu:
     "No, lo siento":
       call option_1
-    "¿Qué es _lolero_?":
+    "¿Lolero? ¿Qué es eso?":
       call option_2
 
-  #añadir sprite jose luis sigh
+
   joseluis.character "Bueno, es igual."
 
-  #ocultar sprite jose luis sigh
 
   show ch_jl_happy
 
@@ -123,6 +129,7 @@ label chapter0:
   #INSERTAR ESTUDIOS DEL JUGADOR
 
   joseluis.character "Conque (nombre del jugador)... Y estudias (nombre de los estudios), nunca te había visto por aquí. A partir de ahora me fijaré más cuando pase por la uni. ¡Encantado!"
+  hide ch_jl_happy
 
   show ch_jl_surprised
 
@@ -151,6 +158,8 @@ label chapter0:
 
   joseluis.character "Espero que te encuentres mejor, casi me mareo cuando he visto que te desmayabas ahí dentro"
 
+  hide ch_jl_think
+
   menu:
     "Estoy mejor, gracias":
       call option_3
@@ -160,6 +169,8 @@ label chapter0:
   show ch_jl_think
 
   joseluis.character "Pues si quieres, cuando te encuentres mejor podríamos quedar y hablar de lo que ha pasado ahí dentro…"
+
+  hide ch_jl_think
 
   scene bg_patio
 

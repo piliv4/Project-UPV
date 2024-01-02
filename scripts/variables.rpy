@@ -27,8 +27,10 @@ image bg_patio_medicos = "bg_medicos_en_upv.png"
 
 #DEFINE CHARACTERS/PERSONAJES (CH/PJ)
 
+#sprites Bazooka
 image ch_bazooka = "bazooka_idle.png"
 
+#Sprites Jose Luis
 image ch_jl_happy = "sprite_jl_contento.png"
 
 image ch_jl_blush = "sprite_jl_sonrojado.png"
@@ -36,6 +38,10 @@ image ch_jl_blush = "sprite_jl_sonrojado.png"
 image ch_jl_surprised = "sprite_jl_sorprendido.png"
 
 image ch_jl_think = "sprite_jl_pensando"
+
+image ch_jl_annoyed = "sprite_jl_molesto"
+
+image ch_jl_mansplaining = "sprite_jl_mansplaining"
 
 #DEFINE SCENES (SC)
 
@@ -53,6 +59,7 @@ label option_1:
   joseluis.character "Ay madre, qué vergüenza"
   
   joseluis.character "Te debo estar dando una primera impresión terrible."
+  #ocultar sprite Jose Luis avergonzado
   return
 
 
@@ -63,13 +70,18 @@ label option_2:
 
   hide ch_jl_surprised
 
-  #añadir sprite Jose Luis mansplaining
+  show ch_jl_mansplaining
 
-  joseluis.character "League of Legends, también conocido por sus siglas LoL, es un videojuego multijugador de arena de batalla en línea desarrollado y publicado por Riot Games que se caracteriza por…"
+  joseluis.character "League of Legends, también conocido por sus siglas LoL, es un videojuego multijugador de arena de batalla en línea desarrollado y publicado por Riot Games"
+  joseluis.character "se suele denominar de forma despectiva a los jugadores de League of Legends o LoL con el término lolero"
+
+  hide ch_jl_mansplaining
 
   #añadir sprite Jose Luis avergonzado
 
   joseluis.character "Estoy hablando demasiado..."
+
+  #ocultar sprite Jose Luis avergonzado
   return
 
 label option_3:
