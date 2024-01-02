@@ -14,8 +14,7 @@ label defineCharacters:
 
   return
 
-
-#DEFINE IMAGES
+# · DEFINE IMAGES ·
 
 image negro = "negro.png"
 #DEFINE BACKGROUNDS(BG)
@@ -36,8 +35,38 @@ image ch_jl_blush = "sprite_jl_sonrojado.png"
 
 image ch_jl_surprised = "sprite_jl_sorprendido.png"
 
+image ch_jl_think = "sprite_jl_pensando"
+
 #DEFINE SCENES (SC)
 
 image sc_tetaspan ="sc_tetaspan.png"
 
 image sc_tetaspanborrosas = "sc_tetaspanborrosas.png"
+
+#DEFINE OPTIONS
+
+#chapter 0
+
+label option_1:
+  show ch_jl_happy
+
+  joseluis.character "¡Me alegro!"
+  
+  hide ch_jl_happy
+  return
+  
+label option_2:
+  show ch_jl_think
+
+  joseluis.character "Qué mal"
+
+  hide ch_jl_think
+  return
+
+label option_3:
+  bazooka.character "Te odio"
+  return
+  
+label option_4:
+  bazooka.character "ZAAAAAMNNNN"
+  return

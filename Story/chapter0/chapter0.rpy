@@ -103,17 +103,39 @@ label chapter0:
   show ch_jl_surprised
 
   joseluis.character "¡Eh! Te han dado una manta y todo, genial."
+
+  hide ch_jl_surprised 
  
-  show ch_jl_blush
+  show ch_jl_happy
 
   joseluis.character "Ah, por cierto... Esto es para tí"
+  
 
-  # · insertar todo el rollo de los objetos ·
   #     - Insertar imagen de jose luis dandote una taza de chocolate 
+
+  # · Todo lo que hay que implementar sobre los OBJETOS ·
   #     - Insertar menú de objetos
   #     - Insertar taza de chocolate como objeto
   #     - Insertar tutorial para el menú de objetos
+
   #     - Insertar escena en caso de que el jugador le de la taza a jose luis
+
+
+  hide ch_jl_happy
+
+  show ch_jl_think
+
+  joseluis.character "Espero que te encuentres mejor, casi me mareo cuando he visto que te desmayabas ahí dentro"
+
+  menu:
+    "Estoy mejor, gracias":
+      call option_1
+    "Todavía me siento sin fuerzas":
+      call option_2
+
+  show ch_jl_think
+
+  joseluis.character "Pues si quieres, cuando te encuentres mejor podríamos quedar y hablar de lo que ha pasado ahí dentro…"
 
   scene bg_patio
 
@@ -129,20 +151,15 @@ label chapter0:
   
   menu:
     "Me quiero morir":
-      call option_1
+      call option_3
     "Te comia las mierdas":
-      call option_2
+      call option_4
   
   
-  bazooka.character "Dios q puta mierda"
-  return
+  bazooka.character "Dios q puta mierdas soy el ultimo return"
 
-label option_1:
-  bazooka.character "Te odio"
-  return
-  
-label option_2:
-  bazooka.character "ZAAAAAMNNNN"
+
+  #FIN CHAPTER 0
   return
 
  
