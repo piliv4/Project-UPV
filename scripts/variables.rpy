@@ -34,6 +34,7 @@ image ch_jl_happy = "sprite_jl_contento.png"
 
 image ch_jl_blush = "sprite_jl_sonrojado.png"
 
+image ch_jl_surprised = "sprite_jl_sorprendido.png"
 
 #DEFINE SCENES (SC)
 

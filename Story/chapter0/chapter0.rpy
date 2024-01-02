@@ -80,9 +80,35 @@ label chapter0:
 
   #FIN ESCENA 1
 
-
-
   mc.character "..."
+
+  scene bg_patio_medicos
+
+  show ch_jl_happy
+
+  incognito.character "Por fin te encuentro, no sabía que las ambulancias llegaban hasta aquí."
+
+  incognito.character "Eres el/la/le que estaba dentro con nosotros, ¿no?"
+
+  joseluis.character "soy Jose Luis, de ingeniería informática."
+
+  joseluis.character "¿Tú eres...?"
+
+  #INSERTAR NOMBRE DEL JUGADOR
+
+  #INSERTAR ESTUDIOS DEL JUGADOR
+
+  joseluis.character "Conque (nombre del jugador)... Y estudias (nombre de los estudios), nunca te había visto por aquí. A partir de ahora me fijaré más cuando pase por la uni. ¡Encantado!"
+
+  show ch_jl_surprised
+
+  joseluis.character "¡Eh! Te han dado una manta y todo, genial."
+ 
+  show ch_jl_blush
+
+  joseluis.character "Ah, por cierto... Esto es para tí"
+
+  #Insertar imagen de jose luis dandote una taza de chocolate 
 
   scene bg_patio
 
