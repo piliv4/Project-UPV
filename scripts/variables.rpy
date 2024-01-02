@@ -47,7 +47,32 @@ image sc_tetaspanborrosas = "sc_tetaspanborrosas.png"
 
 #chapter 0
 
+
 label option_1:
+  #añadir sprite Jose Luis avergonzadao
+  joseluis.character "Ay madre, qué vergüenza"
+  
+  joseluis.character "Te debo estar dando una primera impresión terrible."
+  return
+
+
+label option_2:
+  show ch_jl_surprised
+
+  joseluis.character "¿No sabes qué es el LoL?"
+
+  hide ch_jl_surprised
+
+  #añadir sprite Jose Luis mansplaining
+
+  joseluis.character "League of Legends, también conocido por sus siglas LoL, es un videojuego multijugador de arena de batalla en línea desarrollado y publicado por Riot Games que se caracteriza por…"
+
+  #añadir sprite Jose Luis avergonzado
+
+  joseluis.character "Estoy hablando demasiado..."
+  return
+
+label option_3:
   show ch_jl_happy
 
   joseluis.character "¡Me alegro!"
@@ -55,7 +80,7 @@ label option_1:
   hide ch_jl_happy
   return
   
-label option_2:
+label option_4:
   show ch_jl_think
 
   joseluis.character "Qué mal"
@@ -63,10 +88,10 @@ label option_2:
   hide ch_jl_think
   return
 
-label option_3:
+label option_5:
   bazooka.character "Te odio"
   return
   
-label option_4:
+label option_6:
   bazooka.character "ZAAAAAMNNNN"
   return

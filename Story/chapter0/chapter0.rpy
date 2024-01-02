@@ -92,6 +92,30 @@ label chapter0:
 
   joseluis.character "soy Jose Luis, de ingeniería informática."
 
+  #Añadir sprite Jose Luis confundido#
+
+  joseluis.character "..."
+
+  #Añadir sprite Jose Luis molesto
+  joseluis.character "Oye, que me llamo Jose Luis, no _lolero_."
+
+  #Añadir sprite Jose Luis gotita de sudor
+
+  joseluis.character "¿Puedes hacer que ahí abajo deje de poner eso?"
+
+  menu:
+    "No, lo siento":
+      call option_1
+    "¿Qué es _lolero_?":
+      call option_2
+
+  #añadir sprite jose luis sigh
+  joseluis.character "Bueno, es igual."
+
+  #ocultar sprite jose luis sigh
+
+  show ch_jl_happy
+
   joseluis.character "¿Tú eres...?"
 
   #INSERTAR NOMBRE DEL JUGADOR
@@ -129,9 +153,9 @@ label chapter0:
 
   menu:
     "Estoy mejor, gracias":
-      call option_1
+      call option_3
     "Todavía me siento sin fuerzas":
-      call option_2
+      call option_4
 
   show ch_jl_think
 
@@ -151,9 +175,9 @@ label chapter0:
   
   menu:
     "Me quiero morir":
-      call option_3
+      call option_5
     "Te comia las mierdas":
-      call option_4
+      call option_6
   
   
   bazooka.character "Dios q puta mierdas soy el ultimo return"
