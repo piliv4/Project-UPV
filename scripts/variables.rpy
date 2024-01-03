@@ -59,7 +59,7 @@ label option_1:
   joseluis.character "Ay madre, qué vergüenza"
   
   joseluis.character "Te debo estar dando una primera impresión terrible."
-  #ocultar sprite Jose Luis avergonzado
+  
   return
 
 
@@ -77,7 +77,6 @@ label option_2:
 
   joseluis.character "Estoy hablando demasiado..."
 
-  #ocultar sprite Jose Luis avergonzado
   return
 
 label option_3:
@@ -85,7 +84,6 @@ label option_3:
 
   joseluis.character "¡Me alegro!"
   
-  hide ch jl happy
   return
   
 label option_4:
@@ -93,7 +91,6 @@ label option_4:
 
   joseluis.character "Qué mal"
 
-  hide ch jl think
   return
 
 label option_5:
