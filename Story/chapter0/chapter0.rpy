@@ -1,6 +1,6 @@
 label chapter0:
  
-  scene bg_fuego
+  scene bg fuego
 
   mc.character "No"
 
@@ -53,7 +53,7 @@ label chapter0:
 
   incognito.character "¿Cómo va el/la/le otro/otra/otre?"
 
-  scene sc_tetaspan
+  scene sc tetaspan
 
   incognito.character "Esta/e sigue inconsciente"
 
@@ -68,7 +68,7 @@ label chapter0:
 
   mc.character "Hace que se me cierren los ojos"
 
-  scene sc_tetaspanborrosas
+  scene sc tetaspanborrosas
 
   incognito.character "¿Tú que vas a abrir?"
 
@@ -82,15 +82,15 @@ label chapter0:
 
   mc.character "..."
 
-  scene bg_patio_medicos
+  scene bg patio medicos
 
-  show ch_jl_happy
+  show ch jl happy
 
   incognito.character "Por fin te encuentro, no sabía que las ambulancias llegaban hasta aquí."
 
   incognito.character "Eres el/la/le que estaba dentro con nosotros, ¿no?"
 
-  joseluis.character "soy Jose Luis, de ingeniería informática."
+  joseluis.character "soy [joseluis.name], de ingeniería informática."
 
   #Añadir sprite Jose Luis confundido
 
@@ -98,17 +98,13 @@ label chapter0:
 
   #ocultar sprite jose luis confundido
 
-  show ch_jl_annoyed
+  show ch jl annoyed
 
   joseluis.character "Oye, que me llamo Jose Luis, no lolero."
 
-  hide ch_jl_annoyed
-
-  show ch_jl_think
+  show ch jl think
 
   joseluis.character "¿Puedes hacer que ahí abajo deje de poner eso?"
-
-  hide ch_jl_think
 
   menu:
     "No, lo siento":
@@ -116,11 +112,9 @@ label chapter0:
     "¿Lolero? ¿Qué es eso?":
       call option_2
 
+  show ch jl happy
 
   joseluis.character "Bueno, es igual."
-
-
-  show ch_jl_happy
 
   joseluis.character "¿Tú eres...?"
 
@@ -129,15 +123,13 @@ label chapter0:
   #INSERTAR ESTUDIOS DEL JUGADOR
 
   joseluis.character "Conque (nombre del jugador)... Y estudias (nombre de los estudios), nunca te había visto por aquí. A partir de ahora me fijaré más cuando pase por la uni. ¡Encantado!"
-  hide ch_jl_happy
 
-  show ch_jl_surprised
+
+  show ch jl surprised
 
   joseluis.character "¡Eh! Te han dado una manta y todo, genial."
-
-  hide ch_jl_surprised 
  
-  show ch_jl_happy
+  show ch jl happy
 
   joseluis.character "Ah, por cierto... Esto es para tí"
   
@@ -152,13 +144,11 @@ label chapter0:
   #     - Insertar escena en caso de que el jugador le de la taza a jose luis
 
 
-  hide ch_jl_happy
-
-  show ch_jl_think
+  show ch jl think
 
   joseluis.character "Espero que te encuentres mejor, casi me mareo cuando he visto que te desmayabas ahí dentro"
 
-  hide ch_jl_think
+
 
   menu:
     "Estoy mejor, gracias":
@@ -166,15 +156,14 @@ label chapter0:
     "Todavía me siento sin fuerzas":
       call option_4
 
-  show ch_jl_think
+  show ch jl think
 
   joseluis.character "Pues si quieres, cuando te encuentres mejor podríamos quedar y hablar de lo que ha pasado ahí dentro…"
 
-  hide ch_jl_think
 
-  scene bg_patio
+  scene bg patio
 
-  show ch_bazooka
+  show ch bazooka
 
   bazooka.character "¿Realmente se está poniendo el sol, o simplemente le está dando a la luna la oportunidad de brillar?"
   

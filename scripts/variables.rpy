@@ -19,35 +19,35 @@ label defineCharacters:
 image negro = "negro.png"
 #DEFINE BACKGROUNDS(BG)
 
-image bg_fuego = "bg_clase_con_fuego.png" 
+image bg fuego = "bg_clase_con_fuego.png" 
 
-image bg_patio = "bg_exterior.png"
+image bg patio = "bg_exterior.png"
 
-image bg_patio_medicos = "bg_medicos_en_upv.png"
+image bg patio medicos = "bg_medicos_en_upv.png"
 
 #DEFINE CHARACTERS/PERSONAJES (CH/PJ)
 
 #sprites Bazooka
-image ch_bazooka = "bazooka_idle.png"
+image ch bazooka = "bazooka_idle.png"
 
 #Sprites Jose Luis
-image ch_jl_happy = "sprite_jl_contento.png"
+image ch jl happy = "sprite_jl_contento.png"
 
-image ch_jl_blush = "sprite_jl_sonrojado.png"
+image ch jl blush = "sprite_jl_sonrojado.png"
 
-image ch_jl_surprised = "sprite_jl_sorprendido.png"
+image ch jl surprised = "sprite_jl_sorprendido.png"
 
-image ch_jl_think = "sprite_jl_pensando"
+image ch jl think = "sprite_jl_pensando"
 
-image ch_jl_annoyed = "sprite_jl_molesto"
+image ch jl annoyed = "sprite_jl_molesto"
 
-image ch_jl_mansplaining = "sprite_jl_mansplaining"
+image ch jl mansplaining = "sprite_jl_mansplaining"
 
 #DEFINE SCENES (SC)
 
-image sc_tetaspan ="sc_tetaspan.png"
+image sc tetaspan ="sc_tetaspan.png"
 
-image sc_tetaspanborrosas = "sc_tetaspanborrosas.png"
+image sc tetaspanborrosas = "sc_tetaspanborrosas.png"
 
 #DEFINE OPTIONS
 
@@ -64,18 +64,14 @@ label option_1:
 
 
 label option_2:
-  show ch_jl_surprised
+  show ch jl surprised
 
   joseluis.character "¿No sabes qué es el LoL?"
 
-  hide ch_jl_surprised
-
-  show ch_jl_mansplaining
+  show ch jl mansplaining
 
   joseluis.character "League of Legends, también conocido por sus siglas LoL, es un videojuego multijugador de arena de batalla en línea desarrollado y publicado por Riot Games"
   joseluis.character "se suele denominar de forma despectiva a los jugadores de League of Legends o LoL con el término lolero"
-
-  hide ch_jl_mansplaining
 
   #añadir sprite Jose Luis avergonzado
 
@@ -85,19 +81,19 @@ label option_2:
   return
 
 label option_3:
-  show ch_jl_happy
+  show ch jl happy
 
   joseluis.character "¡Me alegro!"
   
-  hide ch_jl_happy
+  hide ch jl happy
   return
   
 label option_4:
-  show ch_jl_think
+  show ch jl think
 
   joseluis.character "Qué mal"
 
-  hide ch_jl_think
+  hide ch jl think
   return
 
 label option_5:
