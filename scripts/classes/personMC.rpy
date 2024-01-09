@@ -13,7 +13,7 @@ init python:
         age (num): 
         gender string: CAMBIAR A ENUM Genero del jugador
     """
-    def __init__(self, character, alias, name, surnames, age, gender):
+    def __init__(self, character, alias, name, surnames, age, gender, studies):
       super().__init__( character, alias, name, surnames, age)
       self.__gender = gender
  

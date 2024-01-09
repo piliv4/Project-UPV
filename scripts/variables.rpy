@@ -2,7 +2,7 @@ label defineCharacters:
   
   #DEFINE CHARACTERS
 
-  $ mc = PersonMC( Character(""),"", "", "", 0 , "" )
+  $ mc = PersonMC( Character(""),"", "", "", 0 , "" , "")
 
   $ incognito = Person( Character ("???"), "", "", "",20)
 

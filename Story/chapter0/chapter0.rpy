@@ -119,11 +119,17 @@ label chapter0:
 
   joseluis.character "¿Tú eres...?"
 
+  $ mc.name = renpy.input("Tu nombre por favor...", length=32)
+  $ mc.name = mc.name.strip()
+
+  $ mc.studies = renpy.input("Tus estudios...", length=32)
+  $ mc.studies = mc.studies.strip()
+
   #INSERTAR NOMBRE DEL JUGADOR
 
   #INSERTAR ESTUDIOS DEL JUGADOR
 
-  joseluis.character "Conque (nombre del jugador)... Y estudias (nombre de los estudios), nunca te había visto por aquí. A partir de ahora me fijaré más cuando pase por la uni. ¡Encantado!"
+  joseluis.character "Conque [mc.name]... Y estudias [mc.studies], nunca te había visto por aquí. A partir de ahora me fijaré más cuando pase por la uni. ¡Encantado!"
 
 
   show ch jl surprised
