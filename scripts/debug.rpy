@@ -8,23 +8,23 @@ label debug:
             call nonbinary
     
     
+
+    bazooka.character "nice"
+    $ bazooka.character("Te trataré de %s!" % mc.getPronoun())
+    $ bazooka.character("Tu articulo será %s!" % mc.getArticle())
+    $ bazooka.character("Eres muy %s!" %  mc.getGenderedSuffixedWord("guap", "singular"))
     return
       
     
-    bazooka.character "nice"
-    return
 
     label female:
         $ mc.gender = "female"
-        $ bazooka.character("Te trataré de %s!" % mc.getPronoun())
         return
     
     label male:
         $ mc.gender = "male"
-        $ bazooka.character("Te trataré de %s!" % mc.getPronoun())
         return
       
     label nonbinary:
         $ mc.gender = "non-binary"
-        $ bazooka.character("Te trataré de %s!" % mc.getPronoun()) 
         return

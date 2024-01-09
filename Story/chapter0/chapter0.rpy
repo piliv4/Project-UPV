@@ -51,7 +51,7 @@ label chapter0:
   #En la siguiente línea de diálogo habría que usar pronombres para el mc
   # y no sé como hacer eso todavía, así que lo dejo así
 
-  incognito.character "¿Cómo va el/la/le otro/otra/otre?"
+  $ incognito.character("¿Cómo va %s %s!" % (mc.getArticle() , mc.getGenderedSuffixedWord("otr" , "singular")))
 
   scene sc tetaspan
 
@@ -88,7 +88,8 @@ label chapter0:
 
   incognito.character "Por fin te encuentro, no sabía que las ambulancias llegaban hasta aquí."
 
-  incognito.character "Eres el/la/le que estaba dentro con nosotros, ¿no?"
+
+  $ incognito.character("Eres %s  que estaba dentro con nosotros, ¿no?" % mc.getArticle())  
 
   joseluis.character "soy [joseluis.name], de ingeniería informática."
 
@@ -159,29 +160,6 @@ label chapter0:
   show ch jl think
 
   joseluis.character "Pues si quieres, cuando te encuentres mejor podríamos quedar y hablar de lo que ha pasado ahí dentro…"
-
-
-  scene bg patio
-
-  show ch bazooka
-
-  bazooka.character "¿Realmente se está poniendo el sol, o simplemente le está dando a la luna la oportunidad de brillar?"
-  
-  bazooka.character "Hola soy [bazooka.name] pero todos me llaman [bazooka.alias] y tengo [bazooka.age]"
-
-  joseluis.character "Hola dame tu @ del  lol chama"
-
-  panero.character "La vida me da miedo"
-  
-  menu:
-    "Me quiero morir":
-      call option_5
-    "Te comia las mierdas":
-      call option_6
-  
-  
-  bazooka.character "Dios q puta mierdas soy el ultimo return"
-
 
   #FIN CHAPTER 0
   return

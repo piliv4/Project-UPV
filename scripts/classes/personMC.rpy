@@ -28,6 +28,52 @@ init python:
     
 
    
+    """
+      Este método devuelve el artículo del jugador
+    """
+    def getArticle(self):
+      if self.gender == "male":
+        return "el"
+      elif self.gender == "female":
+        return "la"
+      elif self.gender == "non-binary":
+        return "le"
+      else:
+        return "Error en getArticle personMC: VALOR DE GÉNERO NO VALIDO O NULO"
+
+    """
+      Este método recibe:
+        -Word: Una palabra sin terminación en género por ejemplo si quisiesemos poner "guapo"
+        pondriamos "guap"
+        -Number: "singular" para palabras singulares y "plural" para plurales
+      Devuelve:
+        -La palabra completa con el género y número  
+    """
+    def getGenderedSuffixedWord(self, word, number):
+      if word is not None:
+        if self.gender == "male":
+          return word + "o"
+        elif self.gender == "female":
+          return word + "a"
+        elif self.gender == "non-binary":
+          return word + "e"
+        else:
+          return "Error en getGenderSuffixes personMC: VALOR DE GENERO NO VALIDO O NULO"
+
+        if number == "plural":
+          return word + "s"
+        elif number == "singular":
+          return word
+        else:
+          return "Error en getGenderSuffixes personMC: VALOR DE NUMERO NO VALIDO O NULO"
+      else:
+        return "Error en getGenderSuffixes personMC: PALABRA ES NULA"
+        
+
+   
+    """
+      Este método devuelve el pronombre del jugador
+    """
     def getPronoun(self):
       if self.gender == "male":
         return "él"
@@ -36,6 +82,5 @@ init python:
       elif self.gender == "non-binary":
         return "elle"
       else:
-        return "ERROR_GENERO_NO_ESPECIFICADO_O_NULO"
-
+        return "Error en getPronoun personMC: VALOR DE GÉNERO NO VALIDO O NULO"
     
