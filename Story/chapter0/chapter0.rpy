@@ -51,7 +51,7 @@ label chapter0:
   #En la siguiente línea de diálogo habría que usar pronombres para el mc
   # y no sé como hacer eso todavía, así que lo dejo así
 
-  $ incognito.character("¿Cómo va %s %s?" % (mc.getArticle() , mc.getGenderedSuffixedWord("otr" , "singular")))
+  $ incognito.character("¿Cómo va %s %s?" % (mc.getArticle() , mc.getGenderedSuffixedWord("otr" , "singular", False)))
 
   scene sc tetaspan
 

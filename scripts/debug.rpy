@@ -12,7 +12,7 @@ label debug:
     bazooka.character "nice"
     $ bazooka.character("Te trataré de %s!" % mc.getPronoun())
     $ bazooka.character("Tu articulo será %s!" % mc.getArticle())
-    $ bazooka.character("Eres muy %s!" %  mc.getGenderedSuffixedWord("guap", "singular"))
+    $ bazooka.character("Eres muy %s!" %  mc.getGenderedSuffixedWord("guap", "singular", False))
     return
       
     

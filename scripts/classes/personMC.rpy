@@ -49,13 +49,13 @@ init python:
       Devuelve:
         -La palabra completa con el género y número  
     """
-    def getGenderedSuffixedWord(self, word, number):
+    def getGenderedSuffixedWord(self, word, number, esMascirr):
       if word is not None:
-        if self.gender == "male":
-          return word + "o"
+        if self.gender == "male" and not esMascirr:
+          return word + "o"        
         elif self.gender == "female":
           return word + "a"
-        elif self.gender == "non-binary":
+        elif self.gender == "non-binary" or esMascirr:
           return word + "e"
         else:
           return "Error en getGenderSuffixes personMC: VALOR DE GENERO NO VALIDO O NULO"
