@@ -67,8 +67,7 @@ init python:
         else:
           return "Error en getGenderSuffixes personMC: VALOR DE NUMERO NO VALIDO O NULO"
       else:
-        return "Error en getGenderSuffixes personMC: PALABRA ES NULA"
-        
+        return "Error en getGenderSuffixes personMC: PALABRA ES NULA"    
 
    
     """
