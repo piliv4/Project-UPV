@@ -6,6 +6,8 @@ label defineCharacters:
 
   $ incognito = Person( Character ("???"), "", "", "",20)
 
+  $ gp = Person( Character ("Guardia"), "", "", "",42)
+
   $ bazooka =  PersonPL( Character("Bazooka"),"bazookalias", "Bazooka", "Bazkoare", 22, 50)
 
   $ panero =  PersonPL( Character("Pan"),"Panalias", "Melnik", "Panero", 21, 50)  

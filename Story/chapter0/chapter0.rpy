@@ -179,7 +179,7 @@ label chapter0:
 
   #[SPRITE BAZOOKA, CHARMING]
 
-  #Bazooka: Buenas, soy Bazooka, de artes. Estoy currándomelo para ser cada día más rarito.
+  bazooka.character "Buenas, soy Bazooka, de artes. Estoy currándomelo para ser cada día más rarito."
 
   #[SPRITE PAN SIGH]
 
@@ -333,7 +333,7 @@ label chapter0:
 
   #GP = GUARDIA PROSEJUR (evitando copy jeje)
 
-  # gp.character "Bueno chavales, ¿Estáis mejor después de todo este susto?"
+  gp.character "Bueno chavales, ¿Estáis mejor después de todo este susto?"
 
   panero.character "Sí, gracias agente."
 
@@ -347,13 +347,13 @@ label chapter0:
 
   bazooka.character "Prosiga agente."
 
-  # gp.character "…."
-  # gp.character "Veo que estáis mejor. ¿Tú también, el/la/le de atrás?"
+  gp.character "…."
+  gp.character "Veo que estáis mejor. ¿Tú también, el/la/le de atrás?"
 
   mc.character "Sí, estoy mejor, gracias."
 
-  # gp.character "Fenomenal."
-  # gp.character "Pues dado que sois los únicos afectados, necesito que poco a poco y de la forma más objetiva posible, me vayáis contando lo que recordáis que ha pasado antes, durante y después del incendio."
+  gp.character "Fenomenal."
+  gp.character "Pues dado que sois los únicos afectados, necesito que poco a poco y de la forma más objetiva posible, me vayáis contando lo que recordáis que ha pasado antes, durante y después del incendio."
 
   panero.character "Por supuesto señor, verá…."
 
@@ -364,14 +364,15 @@ label chapter0:
 
   #ESCENA: IMAGEN ESPECIAL DEL GUARDIA
 
-  # gp.character "Vaya, conque un enchufe que podría estar en mal estado."
-  # gp.character "Le comentaré eso a los bomberos."
+  gp.character "Vaya, conque un enchufe que podría estar en mal estado."
+  gp.character "Le comentaré eso a los bomberos."
 
   joseluis.character "¡Espere!"
   joseluis.character "¿Y nuestras cosas?"
 
-  # gp.character "Mucho me temo que no vais a poder acceder al edificio hasta que los bomberos digan lo contrario, además, teniendo en cuenta lo que me habéis comentado, si no está ya hecho, probablemente hagan un corte de luz en todo el edificio."
-  # gp.character "Calculo que no podréis acceder en, como mínimo, 72 horas."
+  gp.character "Mucho me temo que no vais a poder acceder a vuestras cosas hasta que los bomberos digan lo contrario."
+  gp.character "Además, teniendo en cuenta lo que me habéis comentado, si no está ya hecho, probablemente hagan un corte de luz en todo el edificio."
+  gp.character "Calculo que no podréis acceder en, como mínimo, 72 horas."
 
   bazooka.character "72 horas y es jueves."
   bazooka.character "Eso significa que podremos ir a recuperar nuestras cosas el domingo."
