@@ -38,7 +38,7 @@ def translate_Script(input_file):
     return output_file
 
 def parseSpeaker(speaker):
-    speakerParsed = speaker.replace("PAN", "panero").replace("JL", "joseluis").replace("BZ", "bazooka").replace("MC", "mc").replace("???", "incognito").replace("GP", "# gp")
+    speakerParsed = speaker.replace("PAN", "panero").replace("JL", "lolero").replace("BZ", "bazooka").replace("MC", "mc").replace("???", "incognito").replace("GP", "# gp")
     speakerParsed = speakerParsed.replace(":", ".character")
     return speakerParsed
 
@@ -47,7 +47,7 @@ def parseMessageSpeaker(message):
     wellFormedPattern = r'[!?).\]]$'
     messageParsed = message
     if re.search(propertyPattern , message):
-        messageParsed = message.replace("[Lolero", "[joseluis").replace("[Pan", "[panero").replace("[bazooka", "bazooka").replace("[mc", "[mc")
+        messageParsed = message.replace("[Lolero", "[lolero").replace("[Pan", "[panero").replace("[bazooka", "bazooka").replace("[mc", "[mc")
         messageParsed = messageParsed.replace(" nombre]", ".name]")
     if not re.search(wellFormedPattern , messageParsed):
         messageParsed = messageParsed + "."

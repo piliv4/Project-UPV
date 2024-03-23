@@ -12,7 +12,7 @@ label defineCharacters:
 
   $ panero =  PersonPL( Character("Pan"),"Panalias", "Melnik", "Panero", 21, 50)  
 
-  $ joseluis = PersonPL( Character("Lolero"),"loleralias", "Jose Luis", "García", 19, 50)
+  $ lolero = PersonPL( Character("Lolero"),"loleralias", "Jose Luis", "García", 19, 50)
 
   return
 
@@ -58,9 +58,9 @@ image sc tetaspanborrosas = "sc_tetaspanborrosas.png"
 
 label option_1:
   #añadir sprite Jose Luis avergonzadao
-  joseluis.character "Ay madre, qué vergüenza"
+  lolero.character "Ay madre, qué vergüenza"
   
-  joseluis.character "Te debo estar dando una primera impresión terrible."
+  lolero.character "Te debo estar dando una primera impresión terrible."
   #ocultar sprite Jose Luis avergonzado
   return
 
@@ -68,16 +68,16 @@ label option_1:
 label option_2:
   show ch jl surprised
 
-  joseluis.character "¿No sabes qué es el LoL?"
+  lolero.character "¿No sabes qué es el LoL?"
 
   show ch jl mansplaining
 
-  joseluis.character "League of Legends, también conocido por sus siglas LoL, es un videojuego multijugador de arena de batalla en línea desarrollado y publicado por Riot Games"
-  joseluis.character "se suele denominar de forma despectiva a los jugadores de League of Legends o LoL con el término lolero"
+  lolero.character "League of Legends, también conocido por sus siglas LoL, es un videojuego multijugador de arena de batalla en línea desarrollado y publicado por Riot Games"
+  lolero.character "se suele denominar de forma despectiva a los jugadores de League of Legends o LoL con el término lolero"
 
   #añadir sprite Jose Luis avergonzado
 
-  joseluis.character "Estoy hablando demasiado..."
+  lolero.character "Estoy hablando demasiado..."
 
   #ocultar sprite Jose Luis avergonzado
   return
@@ -85,7 +85,7 @@ label option_2:
 label option_3:
   show ch jl happy
 
-  joseluis.character "¡Me alegro!"
+  lolero.character "¡Me alegro!"
   
   hide ch jl happy
   return
@@ -93,7 +93,7 @@ label option_3:
 label option_4:
   show ch jl think
 
-  joseluis.character "Qué mal"
+  lolero.character "Qué mal"
 
   hide ch jl think
   return
