@@ -1,0 +1,7 @@
+mc.character "¿El lunes? ¡Mis exámenes son el lunes! No voy a poder estudiar."
+
+#SPRITE BZ: NEUTRAL
+
+bazooka.character "No vamos a poder estudiar.."
+bazooka.character "Nuestras recuperaciones son también el lunes."
+

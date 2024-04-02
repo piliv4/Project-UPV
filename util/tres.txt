@@ -1,0 +1,8 @@
+GP: ¿Tenéis alguna duda más?
+PAN: No. Creo que nos ha quedado claro, gracias
+GP: Vale, pues ahora necesito que me deis vuestros datos personales para poder contactar con vosotros en caso de que sepamos algo.
+MC: Le dimos nuestros documentos de identificación al guardia. Lo apuntó todo en su libreta, dejándonos solos otra vez 
+ESCENA: AMBULANCIAS Y TAL 
+SPRITE BZ: PENSATIVO
+
+BZ: Ha dicho 72 horas y es jueves

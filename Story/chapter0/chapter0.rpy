@@ -91,21 +91,21 @@ label chapter0:
 
   $ incognito.character("Eres %s que estaba dentro con nosotros, ¿no?" % mc.getArticle())  
 
-  joseluis.character "soy [joseluis.name], de ingeniería informática."
+  lolero.character "soy [lolero.name], de ingeniería informática."
 
   #Añadir sprite Jose Luis confundido
 
-  joseluis.character "..."
+  lolero.character "..."
 
   #ocultar sprite jose luis confundido
 
   show ch jl annoyed
 
-  joseluis.character "Oye, que me llamo Jose Luis, no lolero."
+  lolero.character "Oye, que me llamo Jose Luis, no lolero."
 
   show ch jl think
 
-  joseluis.character "¿Puedes hacer que ahí abajo deje de poner eso?"
+  lolero.character "¿Puedes hacer que ahí abajo deje de poner eso?"
 
   menu:
     "No, lo siento":
@@ -115,9 +115,9 @@ label chapter0:
 
   show ch jl happy
 
-  joseluis.character "Bueno, es igual."
+  lolero.character "Bueno, es igual."
 
-  joseluis.character "¿Tú eres...?"
+  lolero.character "¿Tú eres...?"
 
   $ mc.name = renpy.input("Tu nombre por favor...", length=32)
   $ mc.name = mc.name.strip()
@@ -129,16 +129,16 @@ label chapter0:
 
   #INSERTAR ESTUDIOS DEL JUGADOR
 
-  joseluis.character "Conque [mc.name]... Y estudias [mc.studies], nunca te había visto por aquí. A partir de ahora me fijaré más cuando pase por la uni. ¡Encantado!"
+  lolero.character "Conque [mc.name]... Y estudias [mc.studies], nunca te había visto por aquí. A partir de ahora me fijaré más cuando pase por la uni. ¡Encantado!"
 
 
   show ch jl surprised
 
-  joseluis.character "¡Eh! Te han dado una manta y todo, genial."
+  lolero.character "¡Eh! Te han dado una manta y todo, genial."
  
   show ch jl happy
 
-  joseluis.character "Ah, por cierto... Esto es para tí"
+  lolero.character "Ah, por cierto... Esto es para tí"
   
 
   #     - Insertar imagen de jose luis dandote una taza de chocolate 
@@ -153,7 +153,7 @@ label chapter0:
 
   show ch jl think
 
-  joseluis.character "Espero que te encuentres mejor, casi me mareo cuando he visto que te desmayabas ahí dentro"
+  lolero.character "Espero que te encuentres mejor, casi me mareo cuando he visto que te desmayabas ahí dentro"
 
 
 
@@ -165,21 +165,21 @@ label chapter0:
 
   show ch jl think
 
-  joseluis.character "Pues si quieres, cuando te encuentres mejor podríamos quedar y hablar de lo que ha pasado ahí dentro…."
+  lolero.character "Pues si quieres, cuando te encuentres mejor podríamos quedar y hablar de lo que ha pasado ahí dentro…."
 
   #[SPRITE JOSE LUIS SONROJADO] 
 
-  joseluis.character "Perdona, inhalar todo ese humo me ha dejado tonto perdido."
+  lolero.character "Perdona, inhalar todo ese humo me ha dejado tonto perdido."
 
   incognito.character "Como si no lo estuvieras ya de antes."
 
   #[SPRITE JOSE LUIS MOLESTO]
 
-  joseluis.character "¡Bazooka! Tú a callar."
+  lolero.character "¡Bazooka! Tú a callar."
 
   #[SPRITE BAZOOKA, CHARMING]
 
-  #Bazooka: Buenas, soy Bazooka, de artes. Estoy currándomelo para ser cada día más rarito.
+  bazooka.character "Buenas, soy Bazooka, de artes. Estoy currándomelo para ser cada día más rarito."
 
   #[SPRITE PAN SIGH]
 
@@ -193,7 +193,7 @@ label chapter0:
 
   panero.character "Parece que nosotros cuatro somos los únicos que nos hemos visto envueltos en este lío…."
 
-  joseluis.character "¿Cómo sabes eso, Einstein?"
+  lolero.character "¿Cómo sabes eso, Einstein?"
 
   #[SPRITE PAN: MOCKING]
 
@@ -201,10 +201,10 @@ label chapter0:
 
   #[SPRITE JL: CONFUSO]
 
-  joseluis.character "…."
+  lolero.character "…."
 
 
-  joseluis.character "¿Elvis?"
+  lolero.character "¿Elvis?"
 
   #[SPRITE PAN: MOLESTO]
 
@@ -220,8 +220,8 @@ label chapter0:
 
   #[SPRITE JL: NEUTRAL]
 
-  joseluis.character "Chicos, cortad el rollo. Vamos a lo importante."
-  joseluis.character "¿Te ha dicho algo más el de seguridad?"
+  lolero.character "Chicos, cortad el rollo. Vamos a lo importante."
+  lolero.character "¿Te ha dicho algo más el de seguridad?"
 
   #[SPRITE PAN: PENSATIVO]
 
@@ -230,11 +230,11 @@ label chapter0:
 
   #[SPRITE JL: Pensativo]
 
-  joseluis.character "El incendio…."
+  lolero.character "El incendio…."
 
   #[SPRITE JL: NEUTRAL]
 
-  joseluis.character "Ha pasado todo muy rápido, casi se me sale el corazón del pecho. Lo tengo todo nublado, prácticamente no me acuerdo de nada."
+  lolero.character "Ha pasado todo muy rápido, casi se me sale el corazón del pecho. Lo tengo todo nublado, prácticamente no me acuerdo de nada."
 
   #[SPRITE BAZOOKA: NEUTRAL]
 
@@ -261,7 +261,7 @@ label chapter0:
   mc.character "Saqué el estuche, la libreta, el portátil y su cargador."
   mc.character "!!!"
 
-  joseluis.character "¿Qué pasa? ¿Te has acordado de algo?"
+  lolero.character "¿Qué pasa? ¿Te has acordado de algo?"
 
   #ESCENA: imagen ENCHUFES conectados
 
@@ -271,7 +271,7 @@ label chapter0:
 
   mc.character "No le había dado importancia al principio, pero quizás el enchufe que no funcionaba tiene algo que ver con lo del incendio."
 
-  joseluis.character "Deberíamos comentarle eso al guardia."
+  lolero.character "Deberíamos comentarle eso al guardia."
 
   bazooka.character "¡Ah! Me acabo de acordar."
   bazooka.character "¡Tu móvil! También dejaste cargando el móvil en nuestra mesa."
@@ -304,56 +304,56 @@ label chapter0:
 
   #SPRITE LOLERO: MUY PREOCUPADO
 
-  joseluis.character "El portátil, el móvil, el ratón…."
-  joseluis.character "Joder, tengo ahí hasta la alfombrilla buena."
+  lolero.character "El portátil, el móvil, el ratón…."
+  lolero.character "Joder, tengo ahí hasta la alfombrilla buena."
 
   #SPRITE LOLERO: MUY PREOCUPADO -> UNHINGED
 
-  joseluis.character "¿Cuándo la voy a volver a ver?"
-  joseluis.character "Peor… ¿Y si la he perdido en el incendio?"
-  joseluis.character "Tío, mi movil… ¿Qué voy a hacer con las diarias?"
+  lolero.character "¿Cuándo la voy a volver a ver?"
+  lolero.character "Peor… ¿Y si la he perdido en el incendio?"
+  lolero.character "Tío, mi movil… ¿Qué voy a hacer con las diarias?"
 
   #SPRITE: NEUTRAL
 
-  panero.character "Calma, [joseluis.name]. Vamos a hablar con el guardia, seguro que nos dará una solución."
+  panero.character "Calma, [lolero.name]. Vamos a hablar con el guardia, seguro que nos dará una solución."
 
   #SPRITE LOLERO: CATATÓNICO
 
-  joseluis.character "Voy a perder la racha, no voy a conseguir supermonedas suficientes, no voy a poder conseguir a Kasinos…."
+  lolero.character "Voy a perder la racha, no voy a conseguir supermonedas suficientes, no voy a poder conseguir a Kasinos…."
 
   #SPRITE LOLERO: AÚN MÁS CATATÓNICO
 
-  joseluis.character "¡¿Qué voy a hacer sin Kasinos?! No me voy a poder pasar esta zona, además -."
+  lolero.character "¡¿Qué voy a hacer sin Kasinos?! No me voy a poder pasar esta zona, además -."
 
   #SPRITE PAN: PREOCUPADO
 
-  panero.character "[bazooka.name], llama al guardia, antes de que le dé algo a [joseluis.name]"
+  panero.character "[bazooka.name], llama al guardia, antes de que le dé algo a [lolero.name]"
 
   #SPRITE GUARDIA O IMAGEN CURRADA GUARDIA?
 
   #GP = GUARDIA PROSEJUR (evitando copy jeje)
 
-  # gp.character "Bueno chavales, ¿Estáis mejor después de todo este susto?"
+  gp.character "Bueno chavales, ¿Estáis mejor después de todo este susto?"
 
   panero.character "Sí, gracias agente."
 
-  joseluis.character "[panero.name], no es un agente, es un guardia de la uni. Lo vemos todos los días, ¿recuerdas?"
+  lolero.character "[panero.name], no es un agente, es un guardia de la uni. Lo vemos todos los días, ¿recuerdas?"
 
   #¿Esto sería mejor que lo dijera Bazooka? y que lolero no diga nada? Así es como que se mantiene el chiste de que el lolero sigue catatónico
 
   bazooka.character "No se preocupe agente, mi amigo es así de despistado todos los días, está bien, no tiene de qué preocuparse."
 
-  joseluis.character "Pero bueno, ¿yo hablo para las paredes? ¡No es un agente!"
+  lolero.character "Pero bueno, ¿yo hablo para las paredes? ¡No es un agente!"
 
   bazooka.character "Prosiga agente."
 
-  # gp.character "…."
-  # gp.character "Veo que estáis mejor. ¿Tú también, el/la/le de atrás?"
+  gp.character "…."
+  gp.character "Veo que estáis mejor. ¿Tú también, el/la/le de atrás?"
 
   mc.character "Sí, estoy mejor, gracias."
 
-  # gp.character "Fenomenal."
-  # gp.character "Pues dado que sois los únicos afectados, necesito que poco a poco y de la forma más objetiva posible, me vayáis contando lo que recordáis que ha pasado antes, durante y después del incendio."
+  gp.character "Fenomenal."
+  gp.character "Pues dado que sois los únicos afectados, necesito que poco a poco y de la forma más objetiva posible, me vayáis contando lo que recordáis que ha pasado antes, durante y después del incendio."
 
   panero.character "Por supuesto señor, verá…."
 
@@ -364,21 +364,27 @@ label chapter0:
 
   #ESCENA: IMAGEN ESPECIAL DEL GUARDIA
 
-  # gp.character "Vaya, conque un enchufe que podría estar en mal estado."
-  # gp.character "Le comentaré eso a los bomberos."
+  gp.character "Vaya, conque un enchufe que podría estar en mal estado."
+  gp.character "Le comentaré eso a los bomberos."
 
-  joseluis.character "¡Espere!"
-  joseluis.character "¿Y nuestras cosas?"
+  lolero.character "¡Espere!"
+  lolero.character "¿Y nuestras cosas?"
 
-  # gp.character "Mucho me temo que no vais a poder acceder al edificio hasta que los bomberos digan lo contrario, además, teniendo en cuenta lo que me habéis comentado, si no está ya hecho, probablemente hagan un corte de luz en todo el edificio."
-  # gp.character "Calculo que no podréis acceder en, como mínimo, 72 horas."
+  gp.character "Mucho me temo que no vais a poder acceder a vuestras cosas hasta que los bomberos digan lo contrario."
+  gp.character "Además, teniendo en cuenta lo que me habéis comentado, si no está ya hecho, probablemente hagan un corte de luz en todo el edificio."
+  gp.character "Calculo que no podréis acceder en, como mínimo, 72 horas."
 
   bazooka.character "72 horas y es jueves."
   bazooka.character "Eso significa que podremos ir a recuperar nuestras cosas el domingo."
   bazooka.character "Y el domingo estará todo cerrado, con lo que tampoco podremos acceder."
 
   panero.character "Asi que nos queda el lunes."
+  mc.character "¿El lunes? ¡Mis exámenes son el lunes! No voy a poder estudiar."
 
+  #SPRITE BZ: NEUTRAL
+
+  bazooka.character "No vamos a poder estudiar.."
+  bazooka.character "Nuestras recuperaciones son también el lunes."
 
 
 
