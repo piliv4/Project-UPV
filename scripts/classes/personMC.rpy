@@ -16,6 +16,7 @@ init python:
     def __init__(self, character, alias, name, surnames, age, gender, studies):
       super().__init__( character, alias, name, surnames, age)
       self.__gender = gender
+      self.__inventory = Inventory()
  
 
     @property
@@ -25,6 +26,14 @@ init python:
     @gender.setter
     def gender(self, gender):
       self.__gender = gender
+
+    @property
+    def inventory(self):
+      return self.__inventory
+
+    @inventory.setter
+    def inventory(self, inventory):
+      self.__inventory = inventory
     
 
    
@@ -83,3 +92,19 @@ init python:
       else:
         return "Error en getPronoun personMC: VALOR DE GÉNERO NO VALIDO O NULO"
     
+    def gift(self, item, character):
+      if item in self.inventory.items:
+        character.addAffinity(item.baseAffinity)
+        self.inventory.removeItem(item)
+      else:
+        print("LMAO PETO")
+
+    def addItemToInventory(self, item):
+        self.inventory.addItem(item)
+
+    def getItemByIndex(self, index):
+      return self.inventory.getItemByIndex(index)
+    
+    def printItems(self):
+      for item in self.inventory.items:
+        print(item)

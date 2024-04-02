@@ -24,7 +24,7 @@ init python:
       return self.__affinity
     
 
-    @affinity.setter
+    
     def addAffinity(self, val):
       self.__affinity += val
 
